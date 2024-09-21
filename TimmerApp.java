@@ -29,8 +29,7 @@ public class SimpleTimerApp {
                     if (!isRunning) {
                         isRunning = true; 
                         timer.start(); 
-                    }
-                }
+                    }}
             });
             stopButton.addActionListener(new ActionListener() {
                 @Override
@@ -38,8 +37,7 @@ public class SimpleTimerApp {
                     if (isRunning) {
                         isRunning = false; 
                         timer.stop(); 
-                    }
-                }
+                    }}
             });
             resetButton.addActionListener(new ActionListener() {
                 @Override
